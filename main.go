@@ -11,9 +11,9 @@ import (
 	"syscall"
 	"time"
 
-	"quiz/config"
 	"quiz/config/db"
 	"quiz/internal/middleware"
+	"quiz/internal/routes"
 	"quiz/internal/utils"
 
 	"github.com/gin-contrib/cors"
@@ -74,11 +74,6 @@ func main() {
 		return
 	}
 
-	if err := config.InitRedis(context.Background()); err != nil {
-		fmt.Println("Error initializing Redis:", err)
-		return
-	}
-
 	ip := utils.GetOutboundIP()
 	log.Printf("IP del servidor: %s\n", ip)
 
@@ -116,6 +111,11 @@ func main() {
 	r.GET("/api/test", func(c *gin.Context) {
 		c.JSON(200, gin.H{"message": "OK", "ip": ip})
 	})
+
+	api := r.Group("/api/v1")
+	{
+		routes.UserRoutes(api)
+	}
 
 	var wg sync.WaitGroup
 	cleanupCtx, cancelCleanup := context.WithCancel(context.Background())

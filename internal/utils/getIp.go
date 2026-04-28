@@ -16,3 +16,6 @@ func GetOutboundIP() string {
 	localAddr := conn.LocalAddr().(*net.UDPAddr)
 	return strings.Split(localAddr.String(), ":")[0]
 }
+
+
+

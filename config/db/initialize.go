@@ -2,7 +2,9 @@ package db
 
 import (
 	"fmt"
+	"log"
 	"os"
+	"quiz/internal/shared/models"
 )
 
 func InitializeDatabase() error {
@@ -16,10 +18,10 @@ func InitializeDatabase() error {
 		return nil
 	}
 
-	// log.Println("Running in development mode, performing database migration")
-	// if err := DB.AutoMigrate(models.Models...); err != nil {
-	// 	return fmt.Errorf("error migrating database: %v", err)
-	// }
+	log.Println("Running in development mode, performing database migration")
+	if err := DB.AutoMigrate(models.Models...); err != nil {
+		return fmt.Errorf("error migrating database: %v", err)
+	}
 
 	return nil
 }
