@@ -7,6 +7,7 @@ import (
 type User struct {
 	ID        uint64    `json:"id" gorm:"primaryKey"`
 	Nickname  string    `json:"nickname" gorm:"not null"`
+	AvatarURL string    `json:"avatar_url"`
 	CreatedAt time.Time `json:"created_at"`
 }
 
@@ -19,22 +20,23 @@ type Category struct {
 
 type Question struct {
 	ID         uint64    `json:"id" gorm:"primaryKey"`
-	Statement  string    `json:"statement" gorm:"not null"`
+	Text       string    `json:"text" gorm:"not null"`
 	MediaType  string    `json:"media_type" gorm:"default:'text'"`
-	MediaURL   string    `json:"media_url"`
 	CategoryID uint64    `json:"category_id" gorm:"not null"`
 	CreatedAt  time.Time `json:"created_at"`
 
 	Category Category `json:"category" gorm:"foreignKey:CategoryID"`
-	Options  []Option `json:"options" gorm:"foreignKey:QuestionID"`
+	Answers  []Answer `json:"options" gorm:"foreignKey:QuestionID"`
 }
 
-type Option struct {
+type Answer struct {
 	ID         uint64    `json:"id" gorm:"primaryKey"`
 	Content    string    `json:"content" gorm:"not null"`
 	IsCorrect  bool      `json:"is_correct" gorm:"not null"`
 	QuestionID uint64    `json:"question_id" gorm:"not null"`
 	CreatedAt  time.Time `json:"created_at"`
+
+	Question Question `json:"question" gorm:"foreignKey:QuestionID"`
 }
 
 type Game struct {
@@ -42,9 +44,11 @@ type Game struct {
 	Key        string    `json:"key" gorm:"unique;not null;index"`
 	Name       string    `json:"name" gorm:"not null"`
 	Status     string    `json:"status" gorm:"default:'waiting'"`
+	UserID     uint64    `json:"user_id" gorm:"not null"`
 	CategoryID uint64    `json:"category_id" gorm:"not null"`
 	CreatedAt  time.Time `json:"created_at"`
 
+	User     User     `json:"user" gorm:"foreignKey:UserID"`
 	Category Category `json:"category" gorm:"foreignKey:CategoryID"`
 }
 
@@ -70,7 +74,7 @@ type GameDetail struct {
 
 	Departure Departure `json:"departure" gorm:"foreignKey:DepartureID"`
 	Question  Question  `json:"question" gorm:"foreignKey:QuestionID"`
-	Option    Option    `json:"option" gorm:"foreignKey:OptionID"`
+	Answer    Answer    `json:"option" gorm:"foreignKey:OptionID"`
 }
 
 var Models = []any{
@@ -79,6 +83,6 @@ var Models = []any{
 	&Game{},
 	&Departure{},
 	&Question{},
-	&Option{},
+	&Answer{},
 	&GameDetail{},
 }

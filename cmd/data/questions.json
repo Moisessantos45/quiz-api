@@ -1,0 +1,2692 @@
+[
+  {
+    "category": "GEOGRAFÍA",
+    "questions": [
+      {
+        "text": "¿Cuál es el río más largo del mundo?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_9885.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_6491.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_2918.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_9560.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el país más grande del mundo por superficie?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_8177.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_9837.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_5052.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_3292.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿En qué continente se encuentra el desierto del Sahara?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Asia",
+            "is_correct": false
+          },
+          {
+            "content": "África",
+            "is_correct": true
+          },
+          {
+            "content": "Oceanía",
+            "is_correct": false
+          },
+          {
+            "content": "América del Sur",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es la capital de Australia?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_4740.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_4607.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_3304.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_3395.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué país tiene forma de bota?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "España",
+            "is_correct": false
+          },
+          {
+            "content": "Italia",
+            "is_correct": true
+          },
+          {
+            "content": "Francia",
+            "is_correct": false
+          },
+          {
+            "content": "Grecia",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el océano más grande del mundo?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Atlántico",
+            "is_correct": false
+          },
+          {
+            "content": "Índico",
+            "is_correct": false
+          },
+          {
+            "content": "Pacífico",
+            "is_correct": true
+          },
+          {
+            "content": "Ártico",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿En qué país se encuentra el Machu Picchu?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Colombia",
+            "is_correct": false
+          },
+          {
+            "content": "Bolivia",
+            "is_correct": false
+          },
+          {
+            "content": "Perú",
+            "is_correct": true
+          },
+          {
+            "content": "Ecuador",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el punto más alto de la Tierra?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "K2",
+            "is_correct": false
+          },
+          {
+            "content": "Monte Everest",
+            "is_correct": true
+          },
+          {
+            "content": "Kilimanjaro",
+            "is_correct": false
+          },
+          {
+            "content": "Aconcagua",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué estrecho separa España de África?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Estrecho de Magallanes",
+            "is_correct": false
+          },
+          {
+            "content": "Estrecho de Bering",
+            "is_correct": false
+          },
+          {
+            "content": "Estrecho de Gibraltar",
+            "is_correct": true
+          },
+          {
+            "content": "Canal de la Mancha",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es la capital de Japón?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_8414.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_7320.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_1886.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_8773.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué país es conocido como la tierra de los mil lagos?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Noruega",
+            "is_correct": false
+          },
+          {
+            "content": "Suecia",
+            "is_correct": false
+          },
+          {
+            "content": "Finlandia",
+            "is_correct": true
+          },
+          {
+            "content": "Islandia",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el estado más grande de los EE.UU.?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Texas",
+            "is_correct": false
+          },
+          {
+            "content": "California",
+            "is_correct": false
+          },
+          {
+            "content": "Alaska",
+            "is_correct": true
+          },
+          {
+            "content": "Florida",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "HISTORIA UNIVERSAL",
+    "questions": [
+      {
+        "text": "¿En qué año comenzó la Primera Guerra Mundial?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "1912",
+            "is_correct": false
+          },
+          {
+            "content": "1914",
+            "is_correct": true
+          },
+          {
+            "content": "1916",
+            "is_correct": false
+          },
+          {
+            "content": "1918",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién fue el primer presidente de los Estados Unidos?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Thomas Jefferson",
+            "is_correct": false
+          },
+          {
+            "content": "Abraham Lincoln",
+            "is_correct": false
+          },
+          {
+            "content": "George Washington",
+            "is_correct": true
+          },
+          {
+            "content": "John Adams",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿En qué año cayó el Muro de Berlín?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "1985",
+            "is_correct": false
+          },
+          {
+            "content": "1989",
+            "is_correct": true
+          },
+          {
+            "content": "1991",
+            "is_correct": false
+          },
+          {
+            "content": "1990",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué civilización construyó las pirámides de Giza?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Romana",
+            "is_correct": false
+          },
+          {
+            "content": "Maya",
+            "is_correct": false
+          },
+          {
+            "content": "Egipcia",
+            "is_correct": true
+          },
+          {
+            "content": "Griega",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién fue conocido como 'El Rey Sol'?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Luis XIV de Francia",
+            "is_correct": true
+          },
+          {
+            "content": "Felipe II de España",
+            "is_correct": false
+          },
+          {
+            "content": "Enrique VIII de Inglaterra",
+            "is_correct": false
+          },
+          {
+            "content": "Alejandro Magno",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué evento marcó el inicio de la Revolución Francesa?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "La caída de Napoleón",
+            "is_correct": false
+          },
+          {
+            "content": "La Toma de la Bastilla",
+            "is_correct": true
+          },
+          {
+            "content": "La Guerra de los Cien Años",
+            "is_correct": false
+          },
+          {
+            "content": "La Declaración de los Derechos del Hombre",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿En qué año llegó Cristóbal Colón a América?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "1490",
+            "is_correct": false
+          },
+          {
+            "content": "1492",
+            "is_correct": true
+          },
+          {
+            "content": "1494",
+            "is_correct": false
+          },
+          {
+            "content": "1498",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué imperio fue liderado por Julio César?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "El Imperio Otomano",
+            "is_correct": false
+          },
+          {
+            "content": "El Imperio Romano",
+            "is_correct": true
+          },
+          {
+            "content": "El Imperio Bizantino",
+            "is_correct": false
+          },
+          {
+            "content": "El Imperio Persa",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién fue la última reina de Francia antes de la Revolución?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Isabel I",
+            "is_correct": false
+          },
+          {
+            "content": "María Antonieta",
+            "is_correct": true
+          },
+          {
+            "content": "Catalina de Médici",
+            "is_correct": false
+          },
+          {
+            "content": "Juana de Arco",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál fue el nombre de la ciudad de Estambul antes de 1930?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_1939.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_1649.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_5982.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_7903.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué país fue el principal escenario de la Revolución Industrial?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Alemania",
+            "is_correct": false
+          },
+          {
+            "content": "Gran Bretaña",
+            "is_correct": true
+          },
+          {
+            "content": "Estados Unidos",
+            "is_correct": false
+          },
+          {
+            "content": "Francia",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién descubrió la penicilina?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_9937.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_5934.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_4343.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_7430.png",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "CIENCIA Y TECNOLOGÍA",
+    "questions": [
+      {
+        "text": "¿Cuál es el símbolo químico del oro?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Ag",
+            "is_correct": false
+          },
+          {
+            "content": "Au",
+            "is_correct": true
+          },
+          {
+            "content": "Fe",
+            "is_correct": false
+          },
+          {
+            "content": "Pb",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué planeta es conocido como el Planeta Rojo?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Venus",
+            "is_correct": false
+          },
+          {
+            "content": "Marte",
+            "is_correct": true
+          },
+          {
+            "content": "Júpiter",
+            "is_correct": false
+          },
+          {
+            "content": "Saturno",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién desarrolló la teoría de la relatividad?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Isaac Newton",
+            "is_correct": false
+          },
+          {
+            "content": "Albert Einstein",
+            "is_correct": true
+          },
+          {
+            "content": "Nikola Tesla",
+            "is_correct": false
+          },
+          {
+            "content": "Stephen Hawking",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es la unidad básica de la vida?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_7772.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_8313.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_3834.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_1919.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué significa las siglas HTML?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_9364.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_2776.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_3034.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_4157.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el componente principal del aire?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_4949.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_2282.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_5324.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_1927.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién fundó Microsoft?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_2217.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_7051.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_9477.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_6776.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuántos elementos hay en la tabla periódica (estándar)?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_8604.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_8985.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_6316.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_5663.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué planeta tiene más lunas?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Júpiter",
+            "is_correct": false
+          },
+          {
+            "content": "Saturno",
+            "is_correct": true
+          },
+          {
+            "content": "Neptuno",
+            "is_correct": false
+          },
+          {
+            "content": "Urano",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué tipo de energía se obtiene del viento?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_1710.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_3262.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_6554.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_9926.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué lenguaje de programación creó James Gosling en Sun Microsystems?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Python",
+            "is_correct": false
+          },
+          {
+            "content": "Java",
+            "is_correct": true
+          },
+          {
+            "content": "C++",
+            "is_correct": false
+          },
+          {
+            "content": "Ruby",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es la velocidad de la luz (aprox)?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "150,000 km/s",
+            "is_correct": false
+          },
+          {
+            "content": "300,000 km/s",
+            "is_correct": true
+          },
+          {
+            "content": "500,000 km/s",
+            "is_correct": false
+          },
+          {
+            "content": "1,000,000 km/s",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "MATEMÁTICAS",
+    "questions": [
+      {
+        "text": "¿Cuánto es 7 x 8?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "54",
+            "is_correct": false
+          },
+          {
+            "content": "56",
+            "is_correct": true
+          },
+          {
+            "content": "62",
+            "is_correct": false
+          },
+          {
+            "content": "48",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es la raíz cuadrada de 144?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_7309.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_1466.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_7414.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_9413.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cómo se llama un polígono de 5 lados?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_2533.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_5939.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_8210.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_2605.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el valor aproximado de Pi?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "3.12",
+            "is_correct": false
+          },
+          {
+            "content": "3.14",
+            "is_correct": true
+          },
+          {
+            "content": "3.16",
+            "is_correct": false
+          },
+          {
+            "content": "3.18",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué número no puede ser representado en números romanos?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "100",
+            "is_correct": false
+          },
+          {
+            "content": "0",
+            "is_correct": true
+          },
+          {
+            "content": "50",
+            "is_correct": false
+          },
+          {
+            "content": "1000",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cómo se llama el lado más largo de un triángulo rectángulo?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_4357.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_5152.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_3952.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_8677.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuánto suman los ángulos internos de un triángulo?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "90°",
+            "is_correct": false
+          },
+          {
+            "content": "180°",
+            "is_correct": true
+          },
+          {
+            "content": "270°",
+            "is_correct": false
+          },
+          {
+            "content": "360°",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el resultado de 2 + 2 x 2?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_2002.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_6349.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_5812.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_2057.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién es considerado el padre de la geometría?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Pitágoras",
+            "is_correct": false
+          },
+          {
+            "content": "Euclides",
+            "is_correct": true
+          },
+          {
+            "content": "Arquímedes",
+            "is_correct": false
+          },
+          {
+            "content": "Tales de Mileto",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué número primo sigue al 11?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_7530.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_8462.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_1594.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_4979.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cómo se llama una línea que toca un círculo en un solo punto?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_9817.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_8120.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_1322.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_6190.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el logaritmo en base 10 de 1000?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "2",
+            "is_correct": false
+          },
+          {
+            "content": "3",
+            "is_correct": true
+          },
+          {
+            "content": "10",
+            "is_correct": false
+          },
+          {
+            "content": "100",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "CINE Y SERIES",
+    "questions": [
+      {
+        "text": "¿Quién dirigió la película 'Pulp Fiction'?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_2148.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_9972.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_5913.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_1886.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿En qué serie aparece el personaje Walter White?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "The Wire",
+            "is_correct": false
+          },
+          {
+            "content": "Breaking Bad",
+            "is_correct": true
+          },
+          {
+            "content": "Mad Men",
+            "is_correct": false
+          },
+          {
+            "content": "The Sopranos",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál fue la primera película de Disney?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Pinocho",
+            "is_correct": false
+          },
+          {
+            "content": "Blancanieves",
+            "is_correct": true
+          },
+          {
+            "content": "Bambi",
+            "is_correct": false
+          },
+          {
+            "content": "Dumbo",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cómo se llama el reino donde transcurre 'Game of Thrones'?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Narnia",
+            "is_correct": false
+          },
+          {
+            "content": "Westeros (Poniente)",
+            "is_correct": true
+          },
+          {
+            "content": "Tierra Media",
+            "is_correct": false
+          },
+          {
+            "content": "Hogwarts",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué actor interpreta a Iron Man en el MCU?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Chris Evans",
+            "is_correct": false
+          },
+          {
+            "content": "Robert Downey Jr.",
+            "is_correct": true
+          },
+          {
+            "content": "Chris Hemsworth",
+            "is_correct": false
+          },
+          {
+            "content": "Mark Ruffalo",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué película ganó el primer Oscar a la Mejor Película?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "El cantante de jazz",
+            "is_correct": false
+          },
+          {
+            "content": "Alas (Wings)",
+            "is_correct": true
+          },
+          {
+            "content": "Lo que el viento se llevó",
+            "is_correct": false
+          },
+          {
+            "content": "Metrópolis",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cómo se llama el payaso de la película 'It'?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Joker",
+            "is_correct": false
+          },
+          {
+            "content": "Pennywise",
+            "is_correct": true
+          },
+          {
+            "content": "Krasty",
+            "is_correct": false
+          },
+          {
+            "content": "Ronald",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el nombre del director de 'Parasite'?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Akira Kurosawa",
+            "is_correct": false
+          },
+          {
+            "content": "Bong Joon-ho",
+            "is_correct": true
+          },
+          {
+            "content": "Park Chan-wook",
+            "is_correct": false
+          },
+          {
+            "content": "Ang Lee",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué serie de TV tiene como protagonistas a seis amigos en Nueva York?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_7119.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_1069.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_9402.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_7523.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿En qué película se dice la frase 'Yo soy tu padre'?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Star Trek",
+            "is_correct": false
+          },
+          {
+            "content": "Star Wars",
+            "is_correct": true
+          },
+          {
+            "content": "Blade Runner",
+            "is_correct": false
+          },
+          {
+            "content": "Alien",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién es el creador de la serie 'The Simpsons'?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Seth MacFarlane",
+            "is_correct": false
+          },
+          {
+            "content": "Matt Groening",
+            "is_correct": true
+          },
+          {
+            "content": "Mike Judge",
+            "is_correct": false
+          },
+          {
+            "content": "Butch Hartman",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es la película más taquillera de la historia (sin ajustar inflación)?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_2456.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_7757.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_5233.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_8484.png",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "MÚSICA",
+    "questions": [
+      {
+        "text": "¿Quién es conocido como el Rey del Pop?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Elvis Presley",
+            "is_correct": false
+          },
+          {
+            "content": "Michael Jackson",
+            "is_correct": true
+          },
+          {
+            "content": "Prince",
+            "is_correct": false
+          },
+          {
+            "content": "Freddie Mercury",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿De qué país era la banda The Beatles?",
+        "media_type": "audio",
+        "answers": [
+          {
+            "content": "https://example.com/audio_4277.mp3",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/audio_9942.mp3",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/audio_6037.mp3",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/audio_8573.mp3",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el instrumento de cuerda más pequeño de una orquesta sinfónica?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_3824.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_5390.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_1025.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_8772.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién compuso la 'Novena Sinfonía'?",
+        "media_type": "audio",
+        "answers": [
+          {
+            "content": "https://example.com/audio_7708.mp3",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/audio_5074.mp3",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/audio_6785.mp3",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/audio_6190.mp3",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué cantante es famosa por el éxito 'Rolling in the Deep'?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_5383.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_7407.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_2849.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_1470.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuántas cuerdas tiene generalmente una guitarra eléctrica?",
+        "media_type": "audio",
+        "answers": [
+          {
+            "content": "https://example.com/audio_8068.mp3",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/audio_9104.mp3",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/audio_6855.mp3",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/audio_4751.mp3",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién era el vocalista de Queen?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Mick Jagger",
+            "is_correct": false
+          },
+          {
+            "content": "Freddie Mercury",
+            "is_correct": true
+          },
+          {
+            "content": "David Bowie",
+            "is_correct": false
+          },
+          {
+            "content": "Robert Plant",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué género musical nació en Jamaica?",
+        "media_type": "audio",
+        "answers": [
+          {
+            "content": "https://example.com/audio_2838.mp3",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/audio_6282.mp3",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/audio_2484.mp3",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/audio_5077.mp3",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cómo se llama el álbum más vendido de la historia?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_8716.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_2646.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_5744.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_3743.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién es el autor de 'El lago de los cisnes'?",
+        "media_type": "audio",
+        "answers": [
+          {
+            "content": "https://example.com/audio_6427.mp3",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/audio_9000.mp3",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/audio_5458.mp3",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/audio_4548.mp3",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿En qué década se popularizó el Grunge?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "70s",
+            "is_correct": false
+          },
+          {
+            "content": "90s",
+            "is_correct": true
+          },
+          {
+            "content": "80s",
+            "is_correct": false
+          },
+          {
+            "content": "2000s",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué instrumento tocaba Jimi Hendrix?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Batería",
+            "is_correct": false
+          },
+          {
+            "content": "Guitarra",
+            "is_correct": true
+          },
+          {
+            "content": "Piano",
+            "is_correct": false
+          },
+          {
+            "content": "Bajo",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "VIDEOJUEGOS",
+    "questions": [
+      {
+        "text": "¿Cómo se llama el protagonista de 'The Legend of Zelda'?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Zelda",
+            "is_correct": false
+          },
+          {
+            "content": "Link",
+            "is_correct": true
+          },
+          {
+            "content": "Ganon",
+            "is_correct": false
+          },
+          {
+            "content": "Mario",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el videojuego más vendido de la historia?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "GTA V",
+            "is_correct": false
+          },
+          {
+            "content": "Minecraft",
+            "is_correct": true
+          },
+          {
+            "content": "Tetris",
+            "is_correct": false
+          },
+          {
+            "content": "Super Mario Bros",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué empresa creó a Mario Bros?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_5609.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_5793.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_9395.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_3697.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿En qué juego aparece el mapa 'Dust II'?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Call of Duty",
+            "is_correct": false
+          },
+          {
+            "content": "Counter-Strike",
+            "is_correct": true
+          },
+          {
+            "content": "Valorant",
+            "is_correct": false
+          },
+          {
+            "content": "Overwatch",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el nombre del jefe maestro en Halo?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_2389.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_9560.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_1910.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_1745.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué tipo de criatura es Pikachu?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_6133.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_9537.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_6770.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_5686.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál fue la primera consola de Sony?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "PS2",
+            "is_correct": false
+          },
+          {
+            "content": "PlayStation",
+            "is_correct": true
+          },
+          {
+            "content": "PSP",
+            "is_correct": false
+          },
+          {
+            "content": "PS One",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿En qué año se lanzó Pac-Man?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_8034.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_1292.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_2861.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_9061.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién es el creador de Metal Gear Solid?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Shigeru Miyamoto",
+            "is_correct": false
+          },
+          {
+            "content": "Hideo Kojima",
+            "is_correct": true
+          },
+          {
+            "content": "Shinji Mikami",
+            "is_correct": false
+          },
+          {
+            "content": "Yuji Naka",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cómo se llama el mundo de World of Warcraft?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_6159.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_9630.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_7351.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_7593.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué color es Pac-Man?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Rojo",
+            "is_correct": false
+          },
+          {
+            "content": "Amarillo",
+            "is_correct": true
+          },
+          {
+            "content": "Azul",
+            "is_correct": false
+          },
+          {
+            "content": "Verde",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el lenguaje principal de desarrollo en Unity?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "C++",
+            "is_correct": false
+          },
+          {
+            "content": "C#",
+            "is_correct": true
+          },
+          {
+            "content": "Python",
+            "is_correct": false
+          },
+          {
+            "content": "Java",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "DEPORTES",
+    "questions": [
+      {
+        "text": "¿Cada cuántos años se celebran los Juegos Olímpicos?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "2",
+            "is_correct": false
+          },
+          {
+            "content": "4",
+            "is_correct": true
+          },
+          {
+            "content": "6",
+            "is_correct": false
+          },
+          {
+            "content": "8",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién ha ganado más Balones de Oro?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Cristiano Ronaldo",
+            "is_correct": false
+          },
+          {
+            "content": "Lionel Messi",
+            "is_correct": true
+          },
+          {
+            "content": "Pelé",
+            "is_correct": false
+          },
+          {
+            "content": "Johan Cruyff",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿En qué deporte destaca Rafael Nadal?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Golf",
+            "is_correct": false
+          },
+          {
+            "content": "Tenis",
+            "is_correct": true
+          },
+          {
+            "content": "Natación",
+            "is_correct": false
+          },
+          {
+            "content": "Fútbol",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es la distancia de una maratón?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_5557.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_7625.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_1640.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_9496.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué equipo de la NBA tiene más títulos?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "LA Lakers",
+            "is_correct": false
+          },
+          {
+            "content": "Boston Celtics",
+            "is_correct": true
+          },
+          {
+            "content": "Chicago Bulls",
+            "is_correct": false
+          },
+          {
+            "content": "Golden State Warriors",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿En qué país se inventó el fútbol?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Brasil",
+            "is_correct": false
+          },
+          {
+            "content": "Inglaterra",
+            "is_correct": true
+          },
+          {
+            "content": "Italia",
+            "is_correct": false
+          },
+          {
+            "content": "Grecia",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién es el máximo medallista olímpico de la historia?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Usain Bolt",
+            "is_correct": false
+          },
+          {
+            "content": "Michael Phelps",
+            "is_correct": true
+          },
+          {
+            "content": "Carl Lewis",
+            "is_correct": false
+          },
+          {
+            "content": "Larisa Latynina",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cómo se llama el trofeo del campeonato de la NFL?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Trofeo Vince Lombardi",
+            "is_correct": false
+          },
+          {
+            "content": "Copa Stanley",
+            "is_correct": true
+          },
+          {
+            "content": "Trofeo Larry O'Brien",
+            "is_correct": false
+          },
+          {
+            "content": "Trofeo MVP",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿En qué ciudad se celebraron los primeros Juegos Olímpicos modernos?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "París",
+            "is_correct": false
+          },
+          {
+            "content": "Atenas",
+            "is_correct": true
+          },
+          {
+            "content": "Londres",
+            "is_correct": false
+          },
+          {
+            "content": "Roma",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el estilo de natación más rápido?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Espalda",
+            "is_correct": false
+          },
+          {
+            "content": "Crol (Libre)",
+            "is_correct": true
+          },
+          {
+            "content": "Mariposa",
+            "is_correct": false
+          },
+          {
+            "content": "Pecho",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién es el piloto con más títulos de Fórmula 1 (empatado)?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Ayrton Senna",
+            "is_correct": false
+          },
+          {
+            "content": "Michael Schumacher",
+            "is_correct": true
+          },
+          {
+            "content": "Sebastian Vettel",
+            "is_correct": false
+          },
+          {
+            "content": "Fernando Alonso",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cómo se llama el golpe de golf que entra en el hoyo en un solo tiro?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Birdie",
+            "is_correct": false
+          },
+          {
+            "content": "Hole-in-one",
+            "is_correct": true
+          },
+          {
+            "content": "Eagle",
+            "is_correct": false
+          },
+          {
+            "content": "Bogey",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "ARTE Y LITERATURA",
+    "questions": [
+      {
+        "text": "¿Quién pintó la Mona Lisa?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Miguel Ángel",
+            "is_correct": false
+          },
+          {
+            "content": "Leonardo da Vinci",
+            "is_correct": true
+          },
+          {
+            "content": "Rafael",
+            "is_correct": false
+          },
+          {
+            "content": "Donatello",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el libro más vendido de la historia después de la Biblia?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_1017.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_2343.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_5791.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_4424.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién escribió 'Romeo y Julieta'?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Charles Dickens",
+            "is_correct": false
+          },
+          {
+            "content": "William Shakespeare",
+            "is_correct": true
+          },
+          {
+            "content": "Mark Twain",
+            "is_correct": false
+          },
+          {
+            "content": "Oscar Wilde",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿De qué nacionalidad era Pablo Picasso?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Francesa",
+            "is_correct": false
+          },
+          {
+            "content": "Italiana",
+            "is_correct": true
+          },
+          {
+            "content": "Mexicana",
+            "is_correct": false
+          },
+          {
+            "content": "Española",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién escribió 'Cien años de soledad'?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_5303.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_4858.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_6521.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_9056.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el nombre del museo más famoso de París?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Prado",
+            "is_correct": false
+          },
+          {
+            "content": "Louvre",
+            "is_correct": true
+          },
+          {
+            "content": "British Museum",
+            "is_correct": false
+          },
+          {
+            "content": "Metropolitan",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién pintó 'La noche estrellada'?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Claude Monet",
+            "is_correct": false
+          },
+          {
+            "content": "Vincent van Gogh",
+            "is_correct": true
+          },
+          {
+            "content": "Leonardo da Vinci",
+            "is_correct": false
+          },
+          {
+            "content": "Edvard Munch",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿En qué país nació Franz Kafka?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Alemania",
+            "is_correct": false
+          },
+          {
+            "content": "República Checa",
+            "is_correct": true
+          },
+          {
+            "content": "Austria",
+            "is_correct": false
+          },
+          {
+            "content": "Polonia",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién es el autor de 'La Odisea'?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Sófocles",
+            "is_correct": false
+          },
+          {
+            "content": "Homero",
+            "is_correct": true
+          },
+          {
+            "content": "Platón",
+            "is_correct": false
+          },
+          {
+            "content": "Aristóteles",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué movimiento artístico fundó Salvador Dalí?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_2994.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_2889.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_6771.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_8100.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Quién escribió 'El Principito'?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Victor Hugo",
+            "is_correct": false
+          },
+          {
+            "content": "Antoine de Saint-Exupéry",
+            "is_correct": true
+          },
+          {
+            "content": "Jean-Paul Sartre",
+            "is_correct": false
+          },
+          {
+            "content": "Albert Camus",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué escultor hizo el 'David'?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Bernini",
+            "is_correct": false
+          },
+          {
+            "content": "Miguel Ángel",
+            "is_correct": true
+          },
+          {
+            "content": "Donatello",
+            "is_correct": false
+          },
+          {
+            "content": "Rodin",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "GASTRONOMÍA",
+    "questions": [
+      {
+        "text": "¿Cuál es el ingrediente principal del guacamole?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Tomate",
+            "is_correct": false
+          },
+          {
+            "content": "Aguacate",
+            "is_correct": true
+          },
+          {
+            "content": "Cebolla",
+            "is_correct": false
+          },
+          {
+            "content": "Chile",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿De qué país es originaria la pizza?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Estados Unidos",
+            "is_correct": false
+          },
+          {
+            "content": "Francia",
+            "is_correct": true
+          },
+          {
+            "content": "Italia",
+            "is_correct": false
+          },
+          {
+            "content": "Grecia",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué tipo de pasta tiene forma de cuerdas largas y delgadas?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Penne",
+            "is_correct": false
+          },
+          {
+            "content": "Macarrones",
+            "is_correct": true
+          },
+          {
+            "content": "Espaguetis",
+            "is_correct": false
+          },
+          {
+            "content": "Lasaña",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué especia le da al curry su color amarillo característico?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_8440.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_8633.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_4883.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_2052.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué fruto seco se utiliza para hacer mazapán?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_6974.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_2455.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_1806.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_9268.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el queso que se suele usar en la ensalada César?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_1393.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_9877.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_2371.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_3260.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cómo se llama el plato japonés de pescado crudo sobre arroz?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Ramen",
+            "is_correct": false
+          },
+          {
+            "content": "Sushi (Nigiri)",
+            "is_correct": true
+          },
+          {
+            "content": "Tempura",
+            "is_correct": false
+          },
+          {
+            "content": "Sashimi",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué bebida se obtiene de la fermentación de la uva?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_7747.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_5350.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_2665.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_4550.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cuál es el principal ingrediente de la tortilla española?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_6106.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_6277.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_7625.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_2520.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Qué tipo de carne se utiliza tradicionalmente en un Steak Tartare?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "Pollo",
+            "is_correct": false
+          },
+          {
+            "content": "Ternera (Res) cruda",
+            "is_correct": true
+          },
+          {
+            "content": "Cerdo",
+            "is_correct": false
+          },
+          {
+            "content": "Pescado blanco",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿Cómo se llama el café con una pequeña cantidad de leche espumada?",
+        "media_type": "image",
+        "answers": [
+          {
+            "content": "https://example.com/img_8174.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_8106.png",
+            "is_correct": true
+          },
+          {
+            "content": "https://example.com/img_4122.png",
+            "is_correct": false
+          },
+          {
+            "content": "https://example.com/img_5868.png",
+            "is_correct": false
+          }
+        ]
+      },
+      {
+        "text": "¿De dónde es originaria la bebida Tequila?",
+        "media_type": "text",
+        "answers": [
+          {
+            "content": "España",
+            "is_correct": false
+          },
+          {
+            "content": "México",
+            "is_correct": true
+          },
+          {
+            "content": "Colombia",
+            "is_correct": false
+          },
+          {
+            "content": "Cuba",
+            "is_correct": false
+          }
+        ]
+      }
+    ]
+  }
+]
