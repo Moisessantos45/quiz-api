@@ -29,19 +29,19 @@
         "media_type": "image",
         "answers": [
           {
-            "content": "https://example.com/img_8177.png",
+            "content": "https://drive.google.com/uc?export=view&id=1OylWNmYRV2IK9TlNcNlL_8jtOvuyoFeK",
             "is_correct": false
           },
           {
-            "content": "https://example.com/img_9837.png",
+            "content": "https://drive.google.com/uc?export=view&id=1dQI1Wn1iNZJnK1ovSvum6ph69N7F7vLk",
             "is_correct": false
           },
           {
-            "content": "https://example.com/img_5052.png",
+            "content": "https://drive.google.com/uc?export=view&id=1SHgiFRKVimAiL6NUSeLZcG-8ZJDNgZEz",
             "is_correct": true
           },
           {
-            "content": "https://example.com/img_3292.png",
+            "content": "https://drive.google.com/uc?export=view&id=1OylWNmYRV2IK9TlNcNlL_8jtOvuyoFeK",
             "is_correct": false
           }
         ]
@@ -73,19 +73,19 @@
         "media_type": "image",
         "answers": [
           {
-            "content": "https://example.com/img_4740.png",
+            "content": "https://drive.google.com/uc?export=view&id=1K-UN3IUKIlbkzWvel7eEZDX1DnlIFn3q",
             "is_correct": false
           },
           {
-            "content": "https://example.com/img_4607.png",
+            "content": "https://drive.google.com/uc?export=view&id=1eQEbC_h9kttCAj4PjRY4BE14AK8c8aMd",
             "is_correct": false
           },
           {
-            "content": "https://example.com/img_3304.png",
+            "content": "https://drive.google.com/uc?export=view&id=1SgpaUmVEHy3wpGHRSSuClJFe3M2r5ajH",
             "is_correct": true
           },
           {
-            "content": "https://example.com/img_3395.png",
+            "content": "https://drive.google.com/uc?export=view&id=1vrg3xFmUIuQccWkQa1zVGe0_j44R2yG3",
             "is_correct": false
           }
         ]
