@@ -19,45 +19,10 @@ import (
 	"github.com/gin-contrib/cors"
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
-	"github.com/gorilla/websocket"
 	"github.com/joho/godotenv"
 	"golang.org/x/time/rate"
 )
 
-var ctx = context.Background()
-
-var allowedOrigins map[string]bool
-
-var upgrader = websocket.Upgrader{
-	CheckOrigin: func(r *http.Request) bool {
-		origin := r.Header.Get("Origin")
-		return allowedOrigins[origin]
-	},
-}
-
-func wsHandler(c *gin.Context) {
-	conn, err := upgrader.Upgrade(c.Writer, c.Request, nil)
-	if err != nil {
-		log.Println("upgrade error:", err)
-		return
-	}
-	defer conn.Close()
-
-	for {
-		messageType, message, err := conn.ReadMessage()
-		if err != nil {
-			log.Println("read error:", err)
-			break
-		}
-
-		log.Printf("mensaje: %s\n", message)
-
-		if err := conn.WriteMessage(messageType, message); err != nil {
-			log.Println("write error:", err)
-			break
-		}
-	}
-}
 
 func main() {
 	if err := godotenv.Load(); err != nil {
@@ -81,11 +46,7 @@ func main() {
 	HOST_URL_PROD := os.Getenv("HOST_URL_PROD")
 	HOST_URL_PROD_WWW := os.Getenv("HOST_URL_PROD_WWW")
 
-	allowedOrigins = map[string]bool{
-		HOST_URL_DEV:      true,
-		HOST_URL_PROD:     true,
-		HOST_URL_PROD_WWW: true,
-	}
+	allowedOrigins := []string{HOST_URL_DEV, HOST_URL_PROD, HOST_URL_PROD_WWW}
 
 	gin.SetMode(gin.ReleaseMode)
 	r := gin.Default()
@@ -93,7 +54,7 @@ func main() {
 	r.Use(gzip.Gzip(gzip.DefaultCompression))
 
 	r.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{HOST_URL_DEV, HOST_URL_PROD, HOST_URL_PROD_WWW},
+		AllowOrigins:     allowedOrigins,
 		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"},
 		AllowHeaders:     []string{"Origin", "Content-Type", "Accept", "Authorization", "X-Requested-With"},
 		ExposeHeaders:    []string{"Content-Length"},
@@ -102,19 +63,22 @@ func main() {
 	}))
 
 	r.Use(middleware.RateLimiterMiddleware(rate.Every(time.Minute/10), 10))
-	r.GET("/ws", wsHandler)
-
 	r.GET("/", func(c *gin.Context) {
-		c.JSON(200, gin.H{"message": "Welcome to the CV API"})
+		c.JSON(200, gin.H{"message": "Welcome to the Quiz API"})
 	})
 
 	r.GET("/api/test", func(c *gin.Context) {
 		c.JSON(200, gin.H{"message": "OK", "ip": ip})
 	})
 
+	routes.WsRoutes(r)
+
 	api := r.Group("/api/v1")
 	{
 		routes.UserRoutes(api)
+		routes.RoomRoutes(api)
+		routes.GameRoutes(api)
+		routes.CategoryRoutes(api)
 	}
 
 	var wg sync.WaitGroup

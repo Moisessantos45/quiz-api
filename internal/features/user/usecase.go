@@ -1,6 +1,7 @@
 package user
 
 import (
+	"context"
 	"errors"
 	"quiz/internal/shared/models"
 )
@@ -13,13 +14,13 @@ func NewUserUseCase(repo UserRepository) UserService {
 	return &UserUseCase{repo: repo}
 }
 
-func (uc *UserUseCase) Register(nickname string, gameID uint64) (*UserRegistrationResult, error) {
-	user, err := NewUser(nickname)
+func (uc *UserUseCase) Register(ctx context.Context, nickname string, avatarURL string, gameID uint64) (*UserRegistrationResult, error) {
+	user, err := NewUser(nickname, avatarURL)
 	if err != nil {
 		return nil, err
 	}
 
-	if err := uc.repo.Create(user); err != nil {
+	if err := uc.repo.Create(ctx, user); err != nil {
 		return nil, err
 	}
 
@@ -28,17 +29,17 @@ func (uc *UserUseCase) Register(nickname string, gameID uint64) (*UserRegistrati
 		return nil, err
 	}
 
-	if err := uc.repo.CreateDeparture(departure); err != nil {
+	if err := uc.repo.CreateDeparture(ctx, departure); err != nil {
 		return nil, err
 	}
 
 	return &UserRegistrationResult{User: user, Departure: departure}, nil
 }
 
-func (uc *UserUseCase) GetByID(id uint64) (*models.User, error) {
+func (uc *UserUseCase) GetByID(ctx context.Context, id uint64) (*models.User, error) {
 	if id == 0 {
 		return nil, errors.New("El ID del usuario no puede ser cero")
 	}
 
-	return uc.repo.GetByID(id)
+	return uc.repo.GetByID(ctx, id)
 }

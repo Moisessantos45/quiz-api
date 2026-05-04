@@ -52,9 +52,13 @@ func SeedDatabase() error {
 		}
 
 		for _, sc := range seedData {
-			cat := models.Category{Name: sc.Category}
-			if err := DB.FirstOrCreate(&cat, models.Category{Name: sc.Category}).Error; err != nil {
-				return err
+
+			cat := models.Category{}
+			if err := DB.Where("UPPER(name) = UPPER(?)", sc.Category).First(&cat).Error; err != nil {
+				cat.Name = sc.Category
+				if err := DB.Create(&cat).Error; err != nil {
+					return err
+				}
 			}
 
 			for _, sq := range sc.Questions {

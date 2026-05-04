@@ -12,8 +12,9 @@ type UserHandler struct {
 }
 
 type RegisterInput struct {
-	Nickname string `json:"nickname"`
-	GameID   uint64 `json:"game_id"`
+	Nickname  string `json:"nickname"`
+	AvatarURL string `json:"avatar_url"`
+	GameID    uint64 `json:"game_id"`
 }
 
 func NewUserHandler(service UserService) *UserHandler {
@@ -27,7 +28,7 @@ func (h *UserHandler) Register(c *gin.Context) {
 		return
 	}
 
-	result, err := h.service.Register(input.Nickname, input.GameID)
+	result, err := h.service.Register(c.Request.Context(), input.Nickname, input.AvatarURL, input.GameID)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"message": "Error creating user: " + err.Error()})
 		return
@@ -43,7 +44,7 @@ func (h *UserHandler) GetByID(c *gin.Context) {
 		return
 	}
 
-	user, err := h.service.GetByID(id)
+	user, err := h.service.GetByID(c.Request.Context(),id)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"message": "Error fetching user: " + err.Error()})
 		return

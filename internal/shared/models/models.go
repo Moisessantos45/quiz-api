@@ -57,6 +57,8 @@ type Departure struct {
 	GameID    uint64    `json:"game_id" gorm:"not null"`
 	UserID    uint64    `json:"user_id" gorm:"not null"`
 	Score     int64     `json:"score" gorm:"default:0"`
+	Hits      int       `json:"hits" gorm:"default:0"`
+	TotalTime int       `json:"total_time" gorm:"default:0"`
 	CreatedAt time.Time `json:"created_at"`
 
 	Game    Game         `json:"game" gorm:"foreignKey:GameID"`
@@ -68,13 +70,13 @@ type GameDetail struct {
 	ID           uint64 `json:"id" gorm:"primaryKey"`
 	DepartureID  uint64 `json:"departure_id" gorm:"not null"`
 	QuestionID   uint64 `json:"question_id" gorm:"not null"`
-	OptionID     uint64 `json:"option_id" gorm:"not null"`
+	AnswerID     uint64 `json:"answer_id" gorm:"not null"`
 	IsCorrect    bool   `json:"is_correct"`
 	ResponseTime int    `json:"response_time"`
 
 	Departure Departure `json:"departure" gorm:"foreignKey:DepartureID"`
 	Question  Question  `json:"question" gorm:"foreignKey:QuestionID"`
-	Answer    Answer    `json:"option" gorm:"foreignKey:OptionID"`
+	Answer    Answer    `json:"option" gorm:"foreignKey:AnswerID"`
 }
 
 var Models = []any{
