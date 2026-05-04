@@ -7,19 +7,19 @@
         "media_type": "image",
         "answers": [
           {
-            "content": "https://example.com/img_9885.png",
+            "content": "https://drive.google.com/uc?export=view&id=1RxhkzhZ4CVQMoPZhHzt7tk0PTtKKU-kC",
             "is_correct": false
           },
           {
-            "content": "https://example.com/img_6491.png",
+            "content": "https://drive.google.com/uc?export=view&id=1caVNTUem0oyO-ooj_hcwXQuXMUrFhiCp",
             "is_correct": true
           },
           {
-            "content": "https://example.com/img_2918.png",
+            "content": "https://drive.google.com/uc?export=view&id=1liS9K8Va04DCYe6Pt714huwBsf_vL4wn",
             "is_correct": false
           },
           {
-            "content": "https://example.com/img_9560.png",
+            "content": "https://drive.google.com/uc?export=view&id=13EZJGWksi6vdaLnkqoVblC6jQEWzExgr",
             "is_correct": false
           }
         ]
