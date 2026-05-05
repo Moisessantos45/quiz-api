@@ -1956,19 +1956,19 @@
         "media_type": "image",
         "answers": [
           {
-            "content": "https://example.com/img_5557.png",
+            "content": "https://drive.google.com/file/d/1MRHF3-xAIOfce9zIqA2zPezCiPjrbtOU/view?usp=sharing",
             "is_correct": false
           },
           {
-            "content": "https://example.com/img_7625.png",
+            "content": "https://drive.google.com/file/d/1OYi0bq-BHQ17SwEQPMqXJ85zJ92WUwN9/view?usp=sharing",
             "is_correct": true
           },
           {
-            "content": "https://example.com/img_1640.png",
+            "content": "https://drive.google.com/file/d/1jQK0x-eI9_3DdWztq-Dj9-w4dD1rbBYN/view?usp=sharing",
             "is_correct": false
           },
           {
-            "content": "https://example.com/img_9496.png",
+            "content": "https://drive.google.com/file/d/1hXoeu1W_ZJgG5ZFuk0SaQuryPDVHUlWw/view?usp=sharing",
             "is_correct": false
           }
         ]
