@@ -1,7 +1,6 @@
 package main
 
 import (
-	"context"
 	"fmt"
 	"log"
 	"net/http"
@@ -110,7 +109,8 @@ func main() {
 	if err := srv.Shutdown(ctx); err != nil {
 		log.Fatal("Server forced to shutdown: ", err)
 	}
-
-	wg.Wait()
-	log.Println("Server exiting")
+	
+	fmt.Println("=== QUIZ API ===")
+	fmt.Println("Proyecto configurado correctamente")
+	fmt.Println("Listo para empezar a codificar")
 }
