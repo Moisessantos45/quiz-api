@@ -78,16 +78,21 @@ func (uc *RoomUseCase) JoinRoom(ctx context.Context, key string, nickname string
 		return nil, err
 	}
 
-	return &JoinRoomResult{Game: game, User: user, Departure: departure}, nil
+	players, _ := uc.repo.GetDeparturesByGameID(ctx, game.ID)
+
+	return &JoinRoomResult{Game: game, User: user, Departure: departure, Players: players}, nil
 }
 
-func (uc *RoomUseCase) StartGame(ctx context.Context, gameID uint64) error {
+func (uc *RoomUseCase) StartGame(ctx context.Context, gameID uint64) (*models.Game, error) {
 	game, err := uc.repo.GetGameByID(ctx, gameID)
 	if err != nil {
-		return err
+		return nil, err
 	}
 	if game.Status != "waiting" {
-		return fmt.Errorf("el juego no esta en espera")
+		return nil, fmt.Errorf("el juego no esta en espera")
 	}
-	return uc.repo.UpdateGameStatus(ctx, gameID, "started")
+	if err := uc.repo.UpdateGameStatus(ctx, gameID, "started"); err != nil {
+		return nil, err
+	}
+	return game, nil
 }

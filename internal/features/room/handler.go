@@ -79,10 +79,14 @@ func (h *RoomHandler) StartGame(c *gin.Context) {
 		return
 	}
 
-	if err := h.service.StartGame(c.Request.Context(), gameID); err != nil {
+	game, err := h.service.StartGame(c.Request.Context(), gameID)
+	if err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"message": err.Error()})
 		return
 	}
+
+	msg, _ := json.Marshal(gin.H{"event": "game_started", "data": game})
+	hub.Global.Broadcast(game.Key, msg)
 
 	c.JSON(http.StatusOK, gin.H{"message": "game started"})
 }

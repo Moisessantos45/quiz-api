@@ -20,9 +20,7 @@ import (
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
-	"golang.org/x/time/rate"
 )
-
 
 func main() {
 	if err := godotenv.Load(); err != nil {
@@ -62,7 +60,7 @@ func main() {
 		AllowWebSockets:  true,
 	}))
 
-	r.Use(middleware.RateLimiterMiddleware(rate.Every(time.Minute/10), 10))
+	//r.Use(middleware.RateLimiterMiddleware(rate.Every(time.Second/10), 50))
 	r.GET("/", func(c *gin.Context) {
 		c.JSON(200, gin.H{"message": "Welcome to the Quiz API"})
 	})

@@ -47,3 +47,11 @@ func (r *PostgresRepository) CreateUser(ctx context.Context, user *models.User) 
 func (r *PostgresRepository) CreateDeparture(ctx context.Context, departure *models.Departure) error {
 	return r.db.WithContext(ctx).Create(departure).Error
 }
+
+func (r *PostgresRepository) GetDeparturesByGameID(ctx context.Context, gameID uint64) ([]models.Departure, error) {
+	var departures []models.Departure
+	if err := r.db.WithContext(ctx).Preload("User").Where("game_id = ?", gameID).Find(&departures).Error; err != nil {
+		return nil, err
+	}
+	return departures, nil
+}

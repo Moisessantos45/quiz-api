@@ -16,9 +16,10 @@ type CreateRoomResult struct {
 }
 
 type JoinRoomResult struct {
-	Game      *models.Game      `json:"game"`
-	User      *models.User      `json:"user"`
-	Departure *models.Departure `json:"departure"`
+	Game      *models.Game       `json:"game"`
+	User      *models.User       `json:"user"`
+	Departure *models.Departure  `json:"departure"`
+	Players   []models.Departure `json:"players"`
 }
 
 type RoomRepository interface {
@@ -28,12 +29,13 @@ type RoomRepository interface {
 	UpdateGameStatus(ctx context.Context, gameID uint64, status string) error
 	CreateUser(ctx context.Context, user *models.User) error
 	CreateDeparture(ctx context.Context, departure *models.Departure) error
+	GetDeparturesByGameID(ctx context.Context, gameID uint64) ([]models.Departure, error)
 }
 
 type RoomService interface {
 	CreateRoom(ctx context.Context, name string, nickname string, avatarURL string, categoryID uint64) (*CreateRoomResult, error)
 	JoinRoom(ctx context.Context, key string, nickname string, avatarURL string) (*JoinRoomResult, error)
-	StartGame(ctx context.Context, gameID uint64) error
+	StartGame(ctx context.Context, gameID uint64) (*models.Game, error)
 }
 
 func generateKey() (string, error) {
