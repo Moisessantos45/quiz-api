@@ -1,6 +1,7 @@
 package user
 
 import (
+	"context"
 	"fmt"
 	"quiz/internal/shared/models"
 	"strings"
@@ -12,24 +13,25 @@ type UserRegistrationResult struct {
 }
 
 type UserRepository interface {
-	GetByID(id uint64) (*models.User, error)
-	Create(user *models.User) error
-	CreateDeparture(departure *models.Departure) error
+	GetByID(cxt context.Context, id uint64) (*models.User, error)
+	Create(cxt context.Context, user *models.User) error
+	CreateDeparture(cxt context.Context, departure *models.Departure) error
 }
 
 type UserService interface {
-	Register(nickname string, gameID uint64) (*UserRegistrationResult, error)
-	GetByID(id uint64) (*models.User, error)
+	Register(cxt context.Context, nickname string, avatarURL string, gameID uint64) (*UserRegistrationResult, error)
+	GetByID(cxt context.Context, id uint64) (*models.User, error)
 }
 
-func NewUser(nickname string) (*models.User, error) {
+func NewUser(nickname string, avatarURL string) (*models.User, error) {
 	name := strings.TrimSpace(nickname)
 	if name == "" {
 		return nil, fmt.Errorf("El nickname no puede estar vacio")
 	}
 
 	return &models.User{
-		Nickname: name,
+		Nickname:  name,
+		AvatarURL: avatarURL,
 	}, nil
 }
 

@@ -23,5 +23,9 @@ func InitializeDatabase() error {
 		return fmt.Errorf("error migrating database: %v", err)
 	}
 
+	if err := SeedDatabase(); err != nil {
+		return fmt.Errorf("error seeding database: %v", err)
+	}
+
 	return nil
 }
