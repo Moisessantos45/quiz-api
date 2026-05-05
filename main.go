@@ -59,7 +59,7 @@ func main() {
 		AllowWebSockets:  true,
 	}))
 
-	//r.Use(middleware.RateLimiterMiddleware(rate.Every(time.Second/10), 50))
+	 //r.Use(middleware.RateLimiterMiddleware(rate.Every(time.Second/10), 50))
 	r.GET("/", func(c *gin.Context) {
 		c.JSON(200, gin.H{"message": "Welcome to the Quiz API"})
 	})
